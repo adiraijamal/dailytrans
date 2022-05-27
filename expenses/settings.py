@@ -74,13 +74,22 @@ WSGI_APPLICATION = 'expenses.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'postgres',
+#         'USER': 'postgres',
+#         'PASSWORD': 'P@ssw0rd2o2o',
+#         'HOST': 'localhost',
+#     }
+# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'P@ssw0rd2o2o',
-        'HOST': 'localhost',
+        'NAME': 'dfac1v40p1eqb9',
+        'USER': 'bgazyxzexrshya',
+        'PASSWORD': 'cb4471212c9fbe7216e7523abaab97aec16531f97321f4d47edb87b403d13fec',
+        'HOST': 'ec2-54-211-255-161.compute-1.amazonaws.com',
     }
 }
 
