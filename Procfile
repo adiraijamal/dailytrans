@@ -1,1 +1,1 @@
-web: gunicorn dailytrans.wsgi
+web: gunicorn expenses.wsgi
