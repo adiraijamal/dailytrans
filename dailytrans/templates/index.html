@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<title>Django</title>
+<body>
+<table border="2">
+<tr>
+	<td>No:</td>
+	<td>Date</td>
+	<td>Details</td>
+	<td>Category</td>
+	<td>Mode</td>
+	<td>Sub Details</td>
+	<td>Amount</td>
+</tr>
+{% for list in transactions %}
+	<tr>
+		<td>{{ list.transid }}</td>
+		<td>{{ list.transdate }}</td>
+		<td>{{ list.transdetails }}</td>
+		<td>{{ list.transcategory }}</td>
+		<td>{{ list.transmode }}</td>
+		<td>{{ list.transsubdetails }} </td>
+		<td>{{ list.transamount }} </td>
+	</tr>
+{% endfor %}
+</table>
+
+</body>
+</html>

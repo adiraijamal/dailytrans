@@ -1,0 +1,42 @@
+<title>Expenses</title>
+<body>
+<h1>App about daily expenses, based on Django & Python </h1>
+<h2> Hosted in heroku </h2>
+<div></div>
+<table border="1">
+  <tr>
+	<td></td>
+	<td>Jan</td>
+	<td>Feb</td>
+	<td>Mar</td>
+	<td>Apr</td>
+	<td>May</td>
+	<td>Jun</td>
+	<td>Jul</td>
+	<td>Aug</td>
+	<td>Sep</td>
+	<td>Oct</td>
+	<td>Nov</td>
+	<td>Dec</td>
+  </tr>
+  <tr>
+	<td>Cash</td>
+	<td>{{ monjc | floatformat:'2g' }}</td>
+	<td>{{ monfc | floatformat:'2g' }}</td>	
+  </tr>
+  <tr>
+	<td>ENBD</td>
+	<td>{{ monje | floatformat:'2g' }}</td>	
+	<td>{{ monfe | floatformat:'2g' }}</td>		
+  </tr>
+  <tr>
+	<td>NoL</td>
+  </tr>
+  <tr>
+	<td>Pay IT</td>
+  </tr>
+  <tr>
+	<td>SIB</td>  
+
+</table>
+</body>
